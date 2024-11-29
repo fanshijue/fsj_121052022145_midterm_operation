@@ -719,6 +719,7 @@ private static final String[] PROJECTION =
 
 //在NoteEditor类的onResume方法中添加
 
+
 if (mCursor != null) {
                 
                 mCursor.moveToFirst();
@@ -855,242 +856,457 @@ case R.id.white:
 
 
 2、导出笔记
+
 //在list_context_menu.xml中添加一个item
+
+
 <item android:id="@+id/context_export"
-        android:title="@string/menu_export" />
+        
+  android:title="@string/menu_export" />
+
+
 //在NotesList的onContextItemSelected方法的switch中添加、
+
  case R.id.context_export:
+ 
             exportNotes(noteUri);
+            
             return true;
+
+
 //在NotesList类中添加方法
+
+
 private void exportNotes(Uri noteUri) {
+
         ContentResolver resolver = getContentResolver();
+        
         Cursor cursor = resolver.query(noteUri, PROJECTION, null, null, null);
 
         if (cursor != null) {
+        
             try {
+            
                 // 确保外部存储是可用的
+                
                 if (Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())) {
+                
                     File exportDir = new File(getExternalFilesDir(null), "Note export");
+                    
                     if (!exportDir.exists()) {
+                    
                         exportDir.mkdirs();
+                    
                     }
 
                     while (cursor.moveToNext()) {
+                        
                         String title = cursor.getString(COLUMN_INDEX_TITLE);
+                        
                         String noteText = cursor.getString(COLUMN_INDEX_NOTE);
 
                         String cleanedTitle = title.replaceAll("[^a-zA-Z0-9. ]", "_");
 
                         File exportFile = new File(exportDir, cleanedTitle + ".txt");
+                        
                         BufferedWriter writer = new BufferedWriter(new FileWriter(exportFile));
 
                         writer.write("Title: " + title + "\n\n");
+                        
                         writer.write(noteText + "\n\n");
 
                         writer.close();
+                    
                     }
 
                     Toast.makeText(this, "笔记已导出到： " + exportDir.getAbsolutePath(), Toast.LENGTH_LONG).show();
+                
                 } else {
+                
                     Toast.makeText(this, "外部存储不可用", Toast.LENGTH_SHORT).show();
+                
                 }
+            
             } catch (IOException e) {
+            
                 e.printStackTrace();
+                
                 Toast.makeText(this, "导出失败", Toast.LENGTH_SHORT).show();
+            
             } finally {
+            
                 cursor.close();
+            
             }
+        
         }
+    
     }
+
 效果如下：
 
+<img width="212" alt="导出笔记1" src="https://github.com/user-attachments/assets/e4f9e318-92c1-4535-98c0-5b12f2cba259">
 
+<img width="197" alt="导出笔记2" src="https://github.com/user-attachments/assets/f5a8b0d7-86dc-4796-bf40-ed260d1512fd">
 
 3、根据笔记背景颜色进行对笔记分类
+
 //在layout文件夹中新建一个context_color_item.xml
+
+
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+
+  android:layout_width="match_parent"
+  
     android:layout_height="wrap_content"
+    
     android:orientation="horizontal"
+    
     android:padding="8dp">
 
-    <ImageView
-        android:id="@+id/color_icon"
+<ImageView
+
+  android:id="@+id/color_icon"
+  
         android:layout_width="wrap_content"
+        
         android:layout_height="wrap_content"
+        
         android:layout_marginRight="10dp" />
 
-    <TextView
-        android:id="@+id/color_text"
+<TextView
+
+  android:id="@+id/color_text"
+  
         android:layout_width="wrap_content"
+        
         android:layout_height="wrap_content"
+        
         android:textSize="18sp" />
 
 </LinearLayout>
-//在list_options_menu.xml中添加一个item
-<item
-        android:id="@+id/menu_filter_by_color"
-        android:title="@string/menu_filter_by_color"
-        android:showAsAction="ifRoom"/>
-//在NotesList的onOptionsItemSelected方法的switch中添加
-case R.id.menu_filter_by_color:
-            showColorFilterDialog();
-            return true;
-//在NotesList中添加
-private void showColorFilterDialog() {
-        final String[] colors = getResources().getStringArray(R.array.color_filter_options);
-        final int[] colorDrawables = {
-                R.drawable.background_white,
-                R.drawable.background_red,
-                R.drawable.background_blue,
-                R.drawable.background_yellow,
-                R.drawable.background_green,
-                R.drawable.background_purple
-        };
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_item, colors) {
-            @Override
-            public View getView(int position, View convertView, ViewGroup parent) {
-                ViewHolder holder;
-                if (convertView == null) {
-                    convertView = LayoutInflater.from(getContext()).inflate(R.layout.context_color_item, parent, false);
-                    holder = new ViewHolder();
-                    holder.imageView = convertView.findViewById(R.id.color_icon);
-                    holder.textView = convertView.findViewById(R.id.color_text);
-                    convertView.setTag(holder);
-                } else {
-                    holder = (ViewHolder) convertView.getTag();
-                }
 
+
+//在list_options_menu.xml中添加一个item
+
+
+<item
+
+  android:id="@+id/menu_filter_by_color"
+  
+        android:title="@string/menu_filter_by_color"
+        
+        android:showAsAction="ifRoom"/>
+
+
+//在NotesList的onOptionsItemSelected方法的switch中添加
+
+
+case R.id.menu_filter_by_color:
+
+            showColorFilterDialog();
+
+            return true;
+
+
+//在NotesList中添加
+
+
+private void showColorFilterDialog() {
+
+        final String[] colors = getResources().getStringArray(R.array.color_filter_options);
+        
+        final int[] colorDrawables = {
+        
+                R.drawable.background_white,
+                
+                R.drawable.background_red,
+                
+                R.drawable.background_blue,
+                
+                R.drawable.background_yellow,
+                
+                R.drawable.background_green,
+                
+                R.drawable.background_purple
+        
+        };
+        
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.select_dialog_item, colors) {
+        
+            @Override
+            
+            public View getView(int position, View convertView, ViewGroup parent) {
+            
+                ViewHolder holder;
+                
+                if (convertView == null) {
+                
+                    convertView = LayoutInflater.from(getContext()).inflate(R.layout.context_color_item, parent, false);
+                    
+                    holder = new ViewHolder();
+                    
+                    holder.imageView = convertView.findViewById(R.id.color_icon);
+                    
+                    holder.textView = convertView.findViewById(R.id.color_text);
+                    
+                    convertView.setTag(holder);
+                
+                } else {
+                
+                    holder = (ViewHolder) convertView.getTag();
+                
+                }
+                
                 holder.imageView.setImageResource(colorDrawables[position]);
+                
                 holder.textView.setText(colors[position]); // 假设 colorNames 是一个包含颜色名称的字符串数组
+                
                 return convertView;
+            
             }
 
             class ViewHolder {
+            
                 ImageView imageView;
+                
                 TextView textView;
+            
             }
+        
         };
 
         new AlertDialog.Builder(this)
+        
                 .setTitle(R.string.menu_filter_by_color)
+                
                 .setAdapter(adapter, new DialogInterface.OnClickListener() {
+                
                     public void onClick(DialogInterface dialog, int which) {
+                    
                         searchResultsListView.setVisibility(View.GONE); // 隐藏搜索结果ListView
+                        
                         originalListView.setVisibility(View.VISIBLE); // 显示原始ListView
+                        
                         setListAdapter(mAdapter); // 确保使用的是mAdapter
+                        
                         int colorValue = getColorValueForIndex(which);
+                        
                         filterNotesByColor(colorValue);
+                    
                     }
+                
                 })
+                
                 .show();
+    
     }
+
 private int getColorValueForIndex(int index) {
+
         switch (index) {
+        
             case 0: return NotePad.Notes.WHITE_COLOR;
+            
             case 1: return NotePad.Notes.RED_COLOR;
+            
             case 2: return NotePad.Notes.BLUE_COLOR;
+            
             case 3: return NotePad.Notes.YELLOW_COLOR;
+            
             case 4: return NotePad.Notes.GREEN_COLOR;
+            
             case 5: return NotePad.Notes.PURPLE_COLOR;
+            
             default: return NotePad.Notes.WHITE_COLOR;
+        
         }
+    
     }
 
     private void filterNotesByColor(int color) {
+    
         String selection = NotePad.Notes.COLUMN_NAME_BACK_COLOR + " = ?";
+        
         String[] selectionArgs = { String.valueOf(color) };
 
         getLoaderManager().restartLoader(0, null, new LoaderManager.LoaderCallbacks<Cursor>() {
+
             @Override
+            
             public Loader<Cursor> onCreateLoader(int id, Bundle args) {
+            
                 return new CursorLoader(
+                
                         NotesList.this,
+                        
                         getIntent().getData(),
+                        
                         PROJECTION,
+                        
                         selection,
+                        
                         selectionArgs,
+                        
                         NotePad.Notes.DEFAULT_SORT_ORDER
+                
                 );
+            
             }
 
             @Override
+            
             public void onLoadFinished(Loader<Cursor> loader, Cursor cursor) {
+            
                 // 在这里，我们使用新的查询结果来更新适配器
+                
                 if (cursor != null && cursor.getCount() > 0) {
+                
                     if (mSearchAdapter == null) {
+                    
                         String[] dataColumns = { NotePad.Notes.COLUMN_NAME_TITLE, NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE };
+                        
                         int[] viewIDs = { android.R.id.text1, R.id.text2 };
+                        
                         mSearchAdapter = new SimpleCursorAdapter(
+                        
                                 NotesList.this,                             // The Context for the ListView
+                                
                                 R.layout.noteslist_item,                    // Points to the XML for a list item
+                                
                                 cursor,                                     // The cursor to get items from
+                                
                                 dataColumns,
+                                
                                 viewIDs,
+                                
                                 0
+                        
                         );
+                        
                         mSearchAdapter.setViewBinder(new SimpleCursorAdapter.ViewBinder() {
+                        
                             @Override
+                            
                             public boolean setViewValue(View view, Cursor cursor, int columnIndex) {
+                            
                                 int x = cursor.getInt(cursor.getColumnIndex(NotePad.Notes.COLUMN_NAME_BACK_COLOR));
+                                
                                 switch (x){
+                                
                                     case NotePad.Notes.WHITE_COLOR:
+                                    
                                         view.setBackgroundColor(getResources().getColor(R.color.background_white));
+                                        
                                         break;
+                                    
                                     case NotePad.Notes.RED_COLOR:
+                                    
                                         view.setBackgroundColor(getResources().getColor(R.color.background_red));
+                                        
                                         break;
+                                    
                                     case NotePad.Notes.BLUE_COLOR:
+                                    
                                         view.setBackgroundColor(getResources().getColor(R.color.background_blue));
+                                        
                                         break;
+                                    
                                     case NotePad.Notes.YELLOW_COLOR:
+                                    
                                         view.setBackgroundColor(getResources().getColor(R.color.background_yellow));
+                                        
                                         break;
+                                    
                                     case NotePad.Notes.GREEN_COLOR:
+                                    
                                         view.setBackgroundColor(getResources().getColor(R.color.background_green));
+                                        
                                         break;
+                                    
                                     case NotePad.Notes.PURPLE_COLOR:
+                                    
                                         view.setBackgroundColor(getResources().getColor(R.color.background_purple));
+                                        
                                         break;
+                                    
                                     default:
+                                    
                                         view.setBackgroundColor(getResources().getColor(R.color.background_white));
+                                        
                                         break;
+                                
                                 }
+                                
                                 if (columnIndex == COLUMN_INDEX_MODIFICATION_DATE) {
+                                
                                     long timestamp = cursor.getLong(columnIndex);
+                                    
                                     SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss", Locale.getDefault());
+                                    
                                     dateFormat.setTimeZone(TimeZone.getTimeZone("GMT+08:00")); // 修改时区为东八区
+                                    
                                     String formattedDate = dateFormat.format(new Date(timestamp));
+                                    
                                     ((TextView) view).setText(formattedDate);
+                                    
                                     return true;
+                                
                                 }
+                                
                                 return false;
+                            
                             }
+                        
                         });
+                        
                         searchResultsListView.setAdapter(mSearchAdapter); // 设置搜索结果的适配器
+                    
                     } else {
+                    
                         mSearchAdapter.swapCursor(cursor); // 使用新的游标更新适配器
+                   
                     }
+                    
                     originalListView.setVisibility(View.GONE); // 隐藏原始 ListView
+                    
                     searchResultsListView.setVisibility(View.VISIBLE);
+                
                 } else {
+                
                     // 如果没有搜索结果，显示所有笔记并提示用户
+                    
                     Toast.makeText(NotesList.this, "没有找到对应颜色的笔记", Toast.LENGTH_SHORT).show();
+                    
                     showAllNotes();
+                
                 }
+            
             }
 
 
             @Override
+            
             public void onLoaderReset(Loader<Cursor> loader) {
+            
                 // 当 Loader 重置时，清除适配器的数据
+                
                 if (mSearchAdapter != null) {
+                
                     mSearchAdapter.swapCursor(null);
+               
                 }
+                
             }
+        
         });
+    
     }
+
 效果如下：
+
+<img width="194" alt="分类1" src="https://github.com/user-attachments/assets/94b6489b-45f4-412a-a9e6-41454dd91ac4">
+<img width="199" alt="分类2" src="https://github.com/user-attachments/assets/d126855a-5fb7-43fe-b5a4-bc47832b5b0e">
 
