@@ -1,0 +1,8 @@
+com.example.android.notepad.app-pngs-0 C:\Users\27550\AndroidStudioProjects\NotePad\app\build\generated\res\pngs\debug
+com.example.android.notepad.app-resValues-1 C:\Users\27550\AndroidStudioProjects\NotePad\app\build\generated\res\resValues\debug
+com.example.android.notepad.app-rs-2 C:\Users\27550\AndroidStudioProjects\NotePad\app\build\generated\res\rs\debug
+com.example.android.notepad.app-mergeDebugResources-3 C:\Users\27550\AndroidStudioProjects\NotePad\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.android.notepad.app-mergeDebugResources-4 C:\Users\27550\AndroidStudioProjects\NotePad\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.android.notepad.app-merged_res-5 C:\Users\27550\AndroidStudioProjects\NotePad\app\build\intermediates\merged_res\debug
+com.example.android.notepad.app-debug-6 C:\Users\27550\AndroidStudioProjects\NotePad\app\src\debug\res
+com.example.android.notepad.app-main-7 C:\Users\27550\AndroidStudioProjects\NotePad\app\src\main\res

@@ -1,0 +1,7 @@
+#Thu Nov 28 20:14:21 CST 2024
+base.0=C\:\\Users\\27550\\AndroidStudioProjects\\NotePad\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Users\\27550\\AndroidStudioProjects\\NotePad\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+path.0=0/classes.dex
+path.1=7/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

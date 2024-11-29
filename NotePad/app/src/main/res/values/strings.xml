@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">NotePad</string>
+    <string name="live_folder_name">Notes</string>
+
+    <string name="title_edit_title">笔记标题:</string>
+    <string name="title_create">新笔记</string>
+    <string name="title_edit">%1$s</string>
+    <string name="title_notes_list">记事本</string>
+
+    <string name="menu_add">新笔记</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_open">打开</string>
+    <string name="menu_revert">恢复修改</string>
+    <string name="menu_copy">复制</string>
+    <string name="menu_paste">粘贴</string>
+    <string name="menu_reload">刷新笔记</string>
+    <string name="menu_export">导出笔记</string>
+
+    <string name="button_ok">确认</string>
+    <string name="text_title">标题:</string>
+
+    <string name="resolve_edit">修改笔记</string>
+    <string name="resolve_title">修改标题</string>
+
+    <string name="error_title">错误</string>
+    <string name="error_message">加载笔记出错</string>
+    <string name="nothing_to_save">没有数据被保存</string>
+
+    <string name="menu_search">查询</string>
+
+    <string name="menu_filter_by_color">按笔记背景颜色分类</string>
+    <string-array name="color_filter_options">
+        <item>White</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Purple</item>
+    </string-array>
+
+</resources>

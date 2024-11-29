@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_save"
+          android:icon="@drawable/ic_note_save"
+          android:alphabeticShortcut='s'
+          android:title="@string/menu_save"
+          android:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/menu_revert"
+          android:title="@string/menu_revert"
+          android:icon="@drawable/ic_note_revert"/>
+
+    <item android:id="@+id/menu_delete"
+          android:icon="@drawable/ic_note_delete"
+          android:title="@string/menu_delete"
+          android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/change_background"
+        android:title="修改笔记背景颜色">
+        <menu>
+            <group>
+                <item android:id="@+id/red"
+                    android:title="红色"
+                    android:icon="@drawable/background_red"/>
+                <item android:id="@+id/blue"
+                    android:title="蓝色"
+                    android:icon="@drawable/background_blue"/>
+                <item android:id="@+id/yellow"
+                    android:title="黄色"
+                    android:icon="@drawable/background_yellow"/>
+                <item android:id="@+id/green"
+                    android:title="绿色"
+                    android:icon="@drawable/background_green"/>
+                <item android:id="@+id/purple"
+                    android:title="紫色"
+                    android:icon="@drawable/background_purple"/>
+                <item android:id="@+id/white"
+                    android:title="白色"
+                    android:icon="@drawable/background_white"/>
+            </group>
+        </menu>
+    </item>
+</menu>

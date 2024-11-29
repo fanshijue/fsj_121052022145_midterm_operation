@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_background_purple.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\background_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_background_white.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\background_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable-hdpi_ic_menu_compose.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable-hdpi\\ic_menu_compose.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_note_edit.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_note_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\menu_list_context_menu.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\menu\\list_context_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-xhdpi_ic_note_save.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-xhdpi\\ic_note_save.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-xxxhdpi_ic_note_save.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-xxxhdpi\\ic_note_save.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_app_notes.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\app_notes.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\menu_editor_options_menu.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\menu\\editor_options_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_menu_revert.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_menu_revert.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\layout_dialog_color_item.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\layout\\dialog_color_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_note_save.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_note_save.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable-hdpi_ic_menu_delete.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable-hdpi\\ic_menu_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-xxhdpi_ic_note_save.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-xxhdpi\\ic_note_save.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable-hdpi_live_folder_notes.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable-hdpi\\live_folder_notes.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable-hdpi_app_notes.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable-hdpi\\app_notes.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable-hdpi_ic_menu_save.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable-hdpi\\ic_menu_save.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_menu_save.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_menu_save.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\menu_notepad_menu.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\menu\\notepad_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_note_delete.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_note_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\layout_notes_list.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\layout\\notes_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable-ldpi_app_notes.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable-ldpi\\app_notes.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_background_blue.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\background_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_menu_delete.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_menu_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_app_note.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_app_note.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-mdpi_ic_note_save.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-mdpi\\ic_note_save.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\layout_activity_notes_list.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\layout\\activity_notes_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable-hdpi_ic_menu_revert.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable-hdpi\\ic_menu_revert.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-hdpi_ic_note_save.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-hdpi\\ic_note_save.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\layout_search_results.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\layout\\search_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_note_add.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_note_add.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.android.notepad.app-merged_res-5:/layout_notes_list.xml.flat",
+        "source": "com.example.android.notepad.app-main-7:/layout/notes_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable-ldpi_live_folder_notes.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable-ldpi\\live_folder_notes.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\layout_noteslist_item.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\layout\\noteslist_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\menu_list_options_menu.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\menu\\list_options_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\layout_context_color_item.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\layout\\context_color_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\layout_note_editor.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\layout\\note_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_note_search.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_note_search.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_background_yellow.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\background_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_note_item.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_note_item.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_background_red.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\background_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_note_revert.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_note_revert.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_menu_edit.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_menu_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable-hdpi_ic_menu_edit.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable-hdpi\\ic_menu_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_ic_menu_compose.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\ic_menu_compose.png"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_background_green.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\background_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\layout_title_editor.xml.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\layout\\title_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-merged_res-5:\\drawable_live_folder_notes.png.flat",
+        "source": "C:\\Users\\27550\\AndroidStudioProjects\\MyApp1\\.gradle\\daemon\\8.7\\com.example.android.notepad.app-main-7:\\drawable\\live_folder_notes.png"
+    }
+]
