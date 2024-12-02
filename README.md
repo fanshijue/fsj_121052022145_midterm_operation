@@ -32,6 +32,7 @@ UI美化、更改笔记背景颜色
 
 
 基本功能
+
 1、增加时间戳显示
 
 //在noteslist_item.xml中添加一个TextView，用于显示时间戳
